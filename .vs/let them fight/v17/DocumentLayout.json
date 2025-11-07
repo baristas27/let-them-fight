@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|c:\\users\\kullan\u0131c\u0131\\let them fight\\assets\\scripts\\combat\\components\\damagedealer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\components\\damagedealer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|C:\\Users\\Kullan\u0131c\u0131\\let them fight\\assets\\scripts\\combat\\components\\healthsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\components\\healthsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|c:\\users\\kullan\u0131c\u0131\\let them fight\\assets\\scripts\\combat\\tests\\damagetester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\tests\\damagetester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|C:\\Users\\Kullan\u0131c\u0131\\let them fight\\assets\\scripts\\combat\\interfaces\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\interfaces\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|C:\\Users\\Kullan\u0131c\u0131\\let them fight\\assets\\scripts\\combat\\types\\damageinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\types\\damageinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|C:\\Users\\Kullan\u0131c\u0131\\let them fight\\assets\\scripts\\combat\\types\\damagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\types\\damagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|C:\\Users\\Kullan\u0131c\u0131\\let them fight\\assets\\scripts\\combat\\runtimecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\runtimecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|C:\\Users\\Kullan\u0131c\u0131\\let them fight\\assets\\scripts\\spawn\\characterspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawn\\characterspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|C:\\Users\\Kullan\u0131c\u0131\\let them fight\\assets\\scripts\\data\\characterdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\characterdefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DamageDealer.cs",
+              "DocumentMoniker": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\Components\\DamageDealer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Components\\DamageDealer.cs",
+              "ToolTip": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\Components\\DamageDealer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Combat\\Components\\DamageDealer.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T13:32:00.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DamageTester.cs",
+              "DocumentMoniker": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\Tests\\DamageTester.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Tests\\DamageTester.cs",
+              "ToolTip": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\Tests\\DamageTester.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Combat\\Tests\\DamageTester.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T10:24:24.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HealthSystem.cs",
+              "DocumentMoniker": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\Components\\HealthSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Components\\HealthSystem.cs",
+              "ToolTip": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\Components\\HealthSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Combat\\Components\\HealthSystem.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T10:07:07.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DamageType.cs",
+              "DocumentMoniker": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\Types\\DamageType.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Types\\DamageType.cs",
+              "ToolTip": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\Types\\DamageType.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Combat\\Types\\DamageType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:39:39.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DamageInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\Types\\DamageInfo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Types\\DamageInfo.cs",
+              "ToolTip": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\Types\\DamageInfo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Combat\\Types\\DamageInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:32:38.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDamageable.cs",
+              "DocumentMoniker": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\Interfaces\\IDamageable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Interfaces\\IDamageable.cs",
+              "ToolTip": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\Interfaces\\IDamageable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Combat\\Interfaces\\IDamageable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:16:04.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RuntimeCharacter.cs",
+              "DocumentMoniker": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\RuntimeCharacter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\RuntimeCharacter.cs",
+              "ToolTip": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\RuntimeCharacter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Combat\\RuntimeCharacter.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwBQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T15:47:27.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CharacterDefinition.cs",
+              "DocumentMoniker": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Data\\CharacterDefinition.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\CharacterDefinition.cs",
+              "ToolTip": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Data\\CharacterDefinition.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\CharacterDefinition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T15:23:54.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CharacterSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Spawn\\CharacterSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Spawn\\CharacterSpawner.cs",
+              "ToolTip": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Spawn\\CharacterSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Spawn\\CharacterSpawner.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowC4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T15:16:42.642Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
