@@ -57,6 +57,29 @@ namespace GanzSe
             int rand = Random.Range(0, category.childCount);
             category.GetChild(rand).gameObject.SetActive(true);
         }
+
+        public void RemoveInactiveParts()
+        {
+            CleanChildren(armorPartsRoot);
+            CleanChildren(facePartsRoot);
+        }
+
+        private void CleanChildren(Transform root)
+        {
+            if (root == null) return;
+            List<GameObject> toDestroy = new List<GameObject>();
+            foreach(Transform category in root)
+            {
+                foreach (Transform child in category)
+                {
+                    if(!child.gameObject.activeSelf)
+                        toDestroy.Add(child.gameObject);
+                }
+            }
+
+            foreach (GameObject g in toDestroy)
+                Destroy(g);
+        }
     }
 
 #if UNITY_EDITOR

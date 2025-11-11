@@ -1,4 +1,4 @@
-using GanzSe;
+ï»¿using GanzSe;
 using UnityEngine;
 
 public class CharacterSpawner : MonoBehaviour
@@ -10,9 +10,13 @@ public class CharacterSpawner : MonoBehaviour
     [Header("Randomization Options")]
     public bool randomizeArmor = true;
     public bool randomizeFace = true;
-    public bool randomHelmet = true;             // Rastgele kask göster/gizle
+    public bool randomHelmet = true;             // Rastgele kask gï¿½ster/gizle
 
     public CharacterDefinition[] candidateDefs;
+
+    [Header("Runtime References")]
+    public GameObject fighterA;
+    public GameObject fighterB;
 
     void Start()
     {
@@ -24,50 +28,64 @@ public class CharacterSpawner : MonoBehaviour
     {
         if (characterPrefab == null)
         {
-            Debug.LogError("Character Prefab atanmamýþ!");
+            Debug.LogError("Character Prefab atanmamis");
             return;
         }
 
-        if (spawnPoints == null || spawnPoints.Length == 0)
+        if (spawnPoints == null || spawnPoints.Length < 2)
         {
-            Debug.LogError("Spawn noktalarý belirtilmemiþ!");
+            Debug.LogError("Spawn noktalari belirtilmemis!");
             return;
         }
 
-        foreach (Transform spawnPoint in spawnPoints)
+        fighterA = Instantiate(characterPrefab, spawnPoints[0].position, spawnPoints[0].rotation);
+
+
+        fighterB = Instantiate(characterPrefab, spawnPoints[1].position, spawnPoints[1].rotation);
+
+        SetupSpawnedCharacter(fighterA);
+        SetupSpawnedCharacter(fighterB);
+
+        fighterA.GetComponent<FighterAI>().SetTarget(fighterB.transform);
+        fighterB.GetComponent<FighterAI>().SetTarget(fighterA.transform);
+
+
+
+    }
+
+    private void SetupSpawnedCharacter(GameObject character)
+    {
+        if (character == null) return;
+         
+        var rc = character.GetComponent<RuntimeCharacter>();
+        if(rc !=null && candidateDefs != null && candidateDefs.Length > 0)
         {
-            // Karakteri spawn et
-            GameObject character = Instantiate(characterPrefab, spawnPoint.position, spawnPoint.rotation);
-            
+            var chosen = candidateDefs[Random.Range(0, candidateDefs.Length)];
+            rc.ApplyDefinition(chosen);
+        }
 
-            var rc = character.GetComponent<RuntimeCharacter>();
-            if (rc !=null && candidateDefs != null && candidateDefs.Length > 0)
-            {
-                var chosen = candidateDefs[Random.Range(0, candidateDefs.Length)];
-                rc.ApplyDefinition(chosen);
-            }
 
-            // ModularHeroController bul ve randomize et
-            ModularHeroController controller = character.GetComponent<ModularHeroController>();
-            if (controller != null)
-            {
-                if (randomizeArmor) controller.RandomizeArmorParts();
-                if (randomizeFace) controller.RandomizeFaceParts();
 
-                if (randomHelmet)
-                {
-                    controller.showHelmet = Random.value > 0.5f;
-                    controller.ToggleHelmet();
-                }
-            }
-            else
+        ModularHeroController controller = character.GetComponent<ModularHeroController>();
+        if (controller != null)
+        {
+            if (randomizeArmor) controller.RandomizeArmorParts();
+            if (randomizeFace) controller.RandomizeFaceParts();
+
+            if(randomHelmet)
             {
-                Debug.LogWarning("Spawn edilen karakterde ModularHeroController yok: " + character.name);
+                controller.showHelmet = Random.value > 0.5f;
+                controller.ToggleHelmet();
             }
+            controller.RemoveInactiveParts();
+        }
+        else
+        {
+            Debug.LogWarning("Spawn edilen karakterde ModularHeroController yok: " + character.name);
         }
     }
 
-    // Editor'da test etmek için
+    // Editor'da test etmek iï¿½in
     [ContextMenu("Clear Spawned Characters")]
     private void ClearSpawnedCharacters()
     {
@@ -81,6 +99,6 @@ public class CharacterSpawner : MonoBehaviour
         }
     }
 
- 
+
 
 }
