@@ -22,3 +22,4 @@ Unity (C#), **SOLID Architecture**, **Data-Driven Design (ScriptableObjects)**, 
 - [Summary #1](Docs/Summaries/Summary_01.md)
 - [Summary #2](Docs/Summaries/Summary_02.md)
 - [Summary #3](Docs/Summaries/Summary_03.md)
+- [Summary #4](Docs/Summaries/Summary_04.md)
