@@ -27,6 +27,21 @@ public class MovingState : IFighterState
 
         Vector3 moveVelocity = direction * ai.Stats.moveSpeed;
 
+        Vector3 lookDirection = new Vector3(direction.x, 0, direction.z);
+
+        if(lookDirection != Vector3.zero)
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(lookDirection);
+
+            ai.transform.rotation = Quaternion.Slerp(ai.transform.rotation, targetRotation, Time.deltaTime * 10f);
+        }
+
+        if(distance <= ai.attackRange)
+        {
+            ai.ChangeState(ai.attackingState);
+            return;
+        }
+
         ai.Rb.linearVelocity = new Vector3(moveVelocity.x, ai.Rb.linearVelocity.y, moveVelocity.z);
 
 

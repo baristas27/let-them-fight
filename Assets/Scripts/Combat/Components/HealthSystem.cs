@@ -10,12 +10,17 @@ public class HealthSystem : MonoBehaviour, IDamageable
 
     public bool IsAlive => currentHealth > 0f;
 
+    private RagdollController ragdollController;
+    private FighterAI ai;
+
     // triggered when this character dies
     public event Action OnDeath;
 
     private void Awake()
     {
         currentHealth = maxHealth;
+        ragdollController = GetComponent<RagdollController>();
+        ai = GetComponent<FighterAI>();
     }
 
     public void TakeDamage(DamageInfo info)
@@ -41,6 +46,18 @@ public class HealthSystem : MonoBehaviour, IDamageable
     private void Die()
     {
         Debug.Log($"{gameObject.name} has died!");
+        
+        if(ai != null)
+        {
+            ai.enabled = false;
+        }
+
+
+        if(ragdollController != null)
+        {
+            ragdollController.ToggleRagdoll(true);
+        }
+
         OnDeath?.Invoke();
     }
 

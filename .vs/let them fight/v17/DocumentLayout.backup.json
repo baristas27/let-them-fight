@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|C:\\Users\\Kullan\u0131c\u0131\\let them fight\\assets\\scripts\\ai\\movingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\movingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|c:\\users\\kullan\u0131c\u0131\\let them fight\\assets\\scripts\\ai\\fighterai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\fighterai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|c:\\users\\kullan\u0131c\u0131\\let them fight\\assets\\scripts\\combat\\components\\copymotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\components\\copymotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|c:\\users\\kullan\u0131c\u0131\\let them fight\\assets\\scripts\\ai\\attackingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\attackingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|C:\\Users\\Kullan\u0131c\u0131\\let them fight\\assets\\scripts\\ai\\fighterai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\fighterai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|C:\\Users\\Kullan\u0131c\u0131\\let them fight\\assets\\scripts\\ai\\movingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\movingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|C:\\Users\\Kullan\u0131c\u0131\\let them fight\\assets\\scripts\\combat\\components\\ragdollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\components\\ragdollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|C:\\Users\\Kullan\u0131c\u0131\\let them fight\\assets\\scripts\\combat\\components\\healthsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\components\\healthsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|C:\\Users\\Kullan\u0131c\u0131\\let them fight\\assets\\scripts\\ai\\idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ai\\idlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|C:\\Users\\Kullan\u0131c\u0131\\let them fight\\assets\\scripts\\combat\\components\\damagedealer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\components\\damagedealer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D2E62800-722E-88EC-33FE-588FAC933D8D}|Assembly-CSharp.csproj|C:\\Users\\Kullan\u0131c\u0131\\let them fight\\assets\\scripts\\ai\\ifighterstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,50 +62,109 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CopyMotion.cs",
+              "DocumentMoniker": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\Components\\CopyMotion.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Components\\CopyMotion.cs",
+              "ToolTip": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\Components\\CopyMotion.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Combat\\Components\\CopyMotion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T00:37:01.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HealthSystem.cs",
+              "DocumentMoniker": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\Components\\HealthSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Components\\HealthSystem.cs",
+              "ToolTip": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\Components\\HealthSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Combat\\Components\\HealthSystem.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T10:35:15.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RagdollController.cs",
+              "DocumentMoniker": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\Components\\RagdollController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Components\\RagdollController.cs",
+              "ToolTip": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\Components\\RagdollController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Combat\\Components\\RagdollController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T23:20:45.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IdleState.cs",
+              "DocumentMoniker": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\AI\\IdleState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\IdleState.cs",
+              "ToolTip": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\AI\\IdleState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\IdleState.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T22:39:48.597Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "FighterAI.cs",
+              "DocumentMoniker": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\AI\\FighterAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\FighterAI.cs",
+              "ToolTip": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\AI\\FighterAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AI\\FighterAI.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAEwBoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T22:48:48.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DamageDealer.cs",
+              "DocumentMoniker": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\Components\\DamageDealer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Components\\DamageDealer.cs",
+              "ToolTip": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\Components\\DamageDealer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Combat\\Components\\DamageDealer.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowB4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T00:27:58.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AttackingState.cs",
               "DocumentMoniker": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\AI\\AttackingState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\AttackingState.cs",
               "ToolTip": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\AI\\AttackingState.cs",
               "RelativeToolTip": "Assets\\Scripts\\AI\\AttackingState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAuwHUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T23:24:34.203Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MovingState.cs",
               "DocumentMoniker": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\AI\\MovingState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\MovingState.cs",
               "ToolTip": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\AI\\MovingState.cs",
               "RelativeToolTip": "Assets\\Scripts\\AI\\MovingState.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBQAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T01:53:18.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T01:53:18.47Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FighterAI.cs",
-              "DocumentMoniker": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\AI\\FighterAI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\FighterAI.cs",
-              "ToolTip": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\AI\\FighterAI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AI\\FighterAI.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAMwA8AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T22:48:48.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "CharacterSpawner.cs",
               "DocumentMoniker": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Spawn\\CharacterSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Spawn\\CharacterSpawner.cs",
@@ -97,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "IFighterState.cs",
               "DocumentMoniker": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\AI\\IFighterState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\IFighterState.cs",
@@ -109,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "FighterMover1.cs",
               "DocumentMoniker": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\Components\\FighterMover1.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Components\\FighterMover1.cs",
@@ -120,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "FighterMover.cs",
               "DocumentMoniker": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Combat\\Components\\FighterMover.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Components\\FighterMover.cs",
@@ -132,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "CharacterDefinition.cs",
               "DocumentMoniker": "C:\\Users\\Kullan\u0131c\u0131\\let them fight\\Assets\\Scripts\\Data\\CharacterDefinition.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\CharacterDefinition.cs",
